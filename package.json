@@ -1,0 +1,27 @@
+{
+  "name": "regexp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Allan Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allansouzadk/RegexBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Allansouzadk/RegexBot/issues"
+  },
+  "homepage": "https://github.com/Allansouzadk/RegexBot#readme",
+  "description": ""
+}
