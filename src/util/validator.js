@@ -1,6 +1,6 @@
 function validator(ctx) {
   try {
-    let regex = /^s\/\w+\/\w+(\/g|)$/g;
+    let regex = /^s\/(\w+(\ )+|\w+){1,}\/(\w+(\ )+|\w+){1,}(\/g|)$/g;
     if (ctx.match(regex)) {
       return true;
     } else {
